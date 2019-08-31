@@ -1,0 +1,32 @@
+.compHeader{
+    font-family: arial;
+    padding-top: 1rem;
+    height: 3rem;
+    
+    a:visited{
+        color:black;
+    }
+    a:link {
+        text-decoration: none ;
+    }
+    .leftcontent {
+        float:left;
+        padding-left: 2rem;
+        font-size: 2rem;
+    }
+    .rightcontent {
+        float:right;
+        padding-right: 2rem;
+        .about{
+            padding-right: 2rem;
+        }
+        .avatar{
+            margin-right:.4rem;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+            background: white;
+            vertical-align: middle;
+        }
+    }
+}
